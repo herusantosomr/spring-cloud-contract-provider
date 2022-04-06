@@ -47,6 +47,7 @@ dependencies {
 contracts {
     baseClassMappings {
         baseClassMapping(".*users.*", "com.hackathon.avengers.controller.UserControllerBase")
+        baseClassMapping(".*codesystem.*", "com.hackathon.avengers.controller.CodeSystemBaseTestClass")
     }
 }
 
